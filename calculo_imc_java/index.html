@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Calculadora em imc</title>
+</head>
+<body>
+    <h1> CALCULADORA DE IMC DA LUANA</h1>
+    <main>
+    <div class="nome">
+            <h2>Digite seu nome abaixo:</h2>
+            <input id="nome" type="text">
+    </div>
+
+
+    <div class="genero">
+        <h2>Selecione o seu genero:</h2>
+        <div class="dados">
+                <input type="radio"  id="calculoFeminino" name="" value="">
+                <label for="mulher">MULHER</label>
+                <input type="radio"  id="genero" name="" value="">
+                <label for="homem">HOMEM</label>
+                <input type="radio"  id="genero" name="" value="">
+                <label for="outro">OUTRO</label>
+        </div>
+    </div>
+
+
+    <div class="altura">
+            <h2>Digite sua altura em cm:</h2>
+            <input id="altura" type="number">
+    </div>
+
+
+    <div class="peso">
+            <h2>Digite seu peso:</h2>
+            <input id="peso" type="number">
+    </div>
+
+<br>
+    <div class="estetica" >
+            <button class="botao" onclick="calcular()"> CALCULAR </button>
+    </div>
+
+    <br>
+    
+    <div class="textarena">
+        <textarea id="texto" cols="21" rows="3"></textarea>
+    </div>
+
+    <div>
+        <h2>Tabela de IMC para maior entendimento:</h2>
+                <img src="img/tabela_imc.jpg" alt="">
+    </div>
+
+    </main>
+    <script src="js/executa.js"></script>
+</body>
+</html>
